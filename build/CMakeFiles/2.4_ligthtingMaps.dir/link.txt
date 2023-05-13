@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/2.4_ligthtingMaps.dir/src/2_lighting/2.4_ligthtingMaps/lightingMaps.cpp.o CMakeFiles/2.4_ligthtingMaps.dir/src/glad.c.o CMakeFiles/2.4_ligthtingMaps.dir/src/stb_image.cpp.o -o ../bin/2_lighting/2.4_ligthtingMaps/2.4_ligthtingMaps  -lglfw -lassimp 

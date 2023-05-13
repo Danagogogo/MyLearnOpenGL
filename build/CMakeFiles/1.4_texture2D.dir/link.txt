@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/1.4_texture2D.dir/src/1_getting_started/1.4_texture2D/main.cpp.o CMakeFiles/1.4_texture2D.dir/src/glad.c.o CMakeFiles/1.4_texture2D.dir/src/stb_image.cpp.o -o ../bin/1_getting_started/1.4_texture2D/1.4_texture2D  -lglfw -lassimp 

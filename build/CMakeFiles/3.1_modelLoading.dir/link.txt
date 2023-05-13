@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/3.1_modelLoading.dir/src/3_modelLoading/3.1_modelLoading/model_loading.cpp.o CMakeFiles/3.1_modelLoading.dir/src/glad.c.o CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.o -o ../bin/3_modelLoading/3.1_modelLoading/3.1_modelLoading  -lglfw -lassimp 

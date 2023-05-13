@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/2.3_materials.dir/src/2_lighting/2.3_materials/materials.cpp.o CMakeFiles/2.3_materials.dir/src/glad.c.o CMakeFiles/2.3_materials.dir/src/stb_image.cpp.o -o ../bin/2_lighting/2.3_materials/2.3_materials  -lglfw -lassimp 

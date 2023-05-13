@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/2.1_colors.dir/src/2_lighting/2.1_colors/colors.cpp.o CMakeFiles/2.1_colors.dir/src/glad.c.o CMakeFiles/2.1_colors.dir/src/stb_image.cpp.o -o ../bin/2_lighting/2.1_colors/2.1_colors  -lglfw -lassimp 

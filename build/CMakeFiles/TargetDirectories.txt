@@ -1,0 +1,15 @@
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.1_triangle_indexed.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.2_shaders_uniform.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.3_shader_class.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.4_texture2D.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.5_tenRotatingCube.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.1_colors.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.2_PhongShading.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.3_materials.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.4_ligthtingMaps.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.5_Flashlight.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/2.6_multiLights.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/3.1_modelLoading.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.1_stencil_testing.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/edit_cache.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/rebuild_cache.dir

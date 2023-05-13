@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/1.3_shader_class.dir/src/1_getting_started/1.3_shader_class/main.cpp.o CMakeFiles/1.3_shader_class.dir/src/glad.c.o CMakeFiles/1.3_shader_class.dir/src/stb_image.cpp.o -o ../bin/1_getting_started/1.3_shader_class/1.3_shader_class  -lglfw -lassimp 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/1.5_tenRotatingCube.dir/src/1_getting_started/1.5_tenRotatingCube/1.5_tenRotatingCube.cpp.o CMakeFiles/1.5_tenRotatingCube.dir/src/glad.c.o CMakeFiles/1.5_tenRotatingCube.dir/src/stb_image.cpp.o -o ../bin/1_getting_started/1.5_tenRotatingCube/1.5_tenRotatingCube  -lglfw -lassimp 
