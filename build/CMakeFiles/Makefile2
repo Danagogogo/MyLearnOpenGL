@@ -76,6 +76,10 @@ all: CMakeFiles/2.5_Flashlight.dir/all
 all: CMakeFiles/2.6_multiLights.dir/all
 all: CMakeFiles/3.1_modelLoading.dir/all
 all: CMakeFiles/4.1_stencil_testing.dir/all
+all: CMakeFiles/4.2_blending_discard.dir/all
+all: CMakeFiles/4.3_blenging_sorted.dir/all
+all: CMakeFiles/4.4_frame_buffers.dir/all
+all: CMakeFiles/4.5_cubemaps_skybox.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -96,6 +100,10 @@ clean: CMakeFiles/2.5_Flashlight.dir/clean
 clean: CMakeFiles/2.6_multiLights.dir/clean
 clean: CMakeFiles/3.1_modelLoading.dir/clean
 clean: CMakeFiles/4.1_stencil_testing.dir/clean
+clean: CMakeFiles/4.2_blending_discard.dir/clean
+clean: CMakeFiles/4.3_blenging_sorted.dir/clean
+clean: CMakeFiles/4.4_frame_buffers.dir/clean
+clean: CMakeFiles/4.5_cubemaps_skybox.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -435,6 +443,110 @@ CMakeFiles/4.1_stencil_testing.dir/rule: cmake_check_build_system
 CMakeFiles/4.1_stencil_testing.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/clean
 .PHONY : CMakeFiles/4.1_stencil_testing.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.2_blending_discard.dir
+
+# All Build rule for target.
+CMakeFiles/4.2_blending_discard.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=53,54,55,56 "Built target 4.2_blending_discard"
+.PHONY : CMakeFiles/4.2_blending_discard.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.2_blending_discard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.2_blending_discard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.2_blending_discard.dir/rule
+
+# Convenience name for target.
+4.2_blending_discard: CMakeFiles/4.2_blending_discard.dir/rule
+.PHONY : 4.2_blending_discard
+
+# clean rule for target.
+CMakeFiles/4.2_blending_discard.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/clean
+.PHONY : CMakeFiles/4.2_blending_discard.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.3_blenging_sorted.dir
+
+# All Build rule for target.
+CMakeFiles/4.3_blenging_sorted.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=57,58,59,60 "Built target 4.3_blenging_sorted"
+.PHONY : CMakeFiles/4.3_blenging_sorted.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.3_blenging_sorted.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.3_blenging_sorted.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.3_blenging_sorted.dir/rule
+
+# Convenience name for target.
+4.3_blenging_sorted: CMakeFiles/4.3_blenging_sorted.dir/rule
+.PHONY : 4.3_blenging_sorted
+
+# clean rule for target.
+CMakeFiles/4.3_blenging_sorted.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/clean
+.PHONY : CMakeFiles/4.3_blenging_sorted.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.4_frame_buffers.dir
+
+# All Build rule for target.
+CMakeFiles/4.4_frame_buffers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=61,62,63,64 "Built target 4.4_frame_buffers"
+.PHONY : CMakeFiles/4.4_frame_buffers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.4_frame_buffers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.4_frame_buffers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.4_frame_buffers.dir/rule
+
+# Convenience name for target.
+4.4_frame_buffers: CMakeFiles/4.4_frame_buffers.dir/rule
+.PHONY : 4.4_frame_buffers
+
+# clean rule for target.
+CMakeFiles/4.4_frame_buffers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/clean
+.PHONY : CMakeFiles/4.4_frame_buffers.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.5_cubemaps_skybox.dir
+
+# All Build rule for target.
+CMakeFiles/4.5_cubemaps_skybox.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=65,66,67,68 "Built target 4.5_cubemaps_skybox"
+.PHONY : CMakeFiles/4.5_cubemaps_skybox.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.5_cubemaps_skybox.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.5_cubemaps_skybox.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.5_cubemaps_skybox.dir/rule
+
+# Convenience name for target.
+4.5_cubemaps_skybox: CMakeFiles/4.5_cubemaps_skybox.dir/rule
+.PHONY : 4.5_cubemaps_skybox
+
+# clean rule for target.
+CMakeFiles/4.5_cubemaps_skybox.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/clean
+.PHONY : CMakeFiles/4.5_cubemaps_skybox.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

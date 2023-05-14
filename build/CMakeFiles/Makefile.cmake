@@ -61,4 +61,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/2.6_multiLights.dir/DependInfo.cmake"
   "CMakeFiles/3.1_modelLoading.dir/DependInfo.cmake"
   "CMakeFiles/4.1_stencil_testing.dir/DependInfo.cmake"
+  "CMakeFiles/4.2_blending_discard.dir/DependInfo.cmake"
+  "CMakeFiles/4.3_blenging_sorted.dir/DependInfo.cmake"
+  "CMakeFiles/4.4_frame_buffers.dir/DependInfo.cmake"
+  "CMakeFiles/4.5_cubemaps_skybox.dir/DependInfo.cmake"
   )

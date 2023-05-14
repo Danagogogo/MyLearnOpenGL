@@ -80,10 +80,10 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/2.stencil_testing.vs",
-                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/2.stencil_testing.fs");
-    Shader shaderSingleColor("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/2.stencil_testing.vs",
-                             "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/2.stencil_single_color.fs");
+    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.vs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.fs");
+    Shader shaderSingleColor("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.vs",
+                             "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.1_stencil_testing/stencil_single_color.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

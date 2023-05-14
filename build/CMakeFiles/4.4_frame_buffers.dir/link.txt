@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/4.4_frame_buffers.dir/src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.o CMakeFiles/4.4_frame_buffers.dir/src/glad.c.o CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.o -o ../bin/4_advancedOpenGL/4.4_frame_buffers/4.4_frame_buffers  -lglfw -lassimp 

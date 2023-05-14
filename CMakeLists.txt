@@ -45,6 +45,10 @@ set(3_modelLoading
 
 set(4_advancedOpenGL
         4.1_stencil_testing
+        4.2_blending_discard
+        4.3_blenging_sorted
+        4.4_frame_buffers
+        4.5_cubemaps_skybox
 )
 
 # 1.指定源文件或库对应的头文件目录

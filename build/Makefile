@@ -285,6 +285,58 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/build
 .PHONY : 4.1_stencil_testing/fast
 
+#=============================================================================
+# Target rules for targets named 4.2_blending_discard
+
+# Build rule for target.
+4.2_blending_discard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.2_blending_discard
+.PHONY : 4.2_blending_discard
+
+# fast build rule for target.
+4.2_blending_discard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/build
+.PHONY : 4.2_blending_discard/fast
+
+#=============================================================================
+# Target rules for targets named 4.3_blenging_sorted
+
+# Build rule for target.
+4.3_blenging_sorted: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.3_blenging_sorted
+.PHONY : 4.3_blenging_sorted
+
+# fast build rule for target.
+4.3_blenging_sorted/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/build
+.PHONY : 4.3_blenging_sorted/fast
+
+#=============================================================================
+# Target rules for targets named 4.4_frame_buffers
+
+# Build rule for target.
+4.4_frame_buffers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.4_frame_buffers
+.PHONY : 4.4_frame_buffers
+
+# fast build rule for target.
+4.4_frame_buffers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/build
+.PHONY : 4.4_frame_buffers/fast
+
+#=============================================================================
+# Target rules for targets named 4.5_cubemaps_skybox
+
+# Build rule for target.
+4.5_cubemaps_skybox: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.5_cubemaps_skybox
+.PHONY : 4.5_cubemaps_skybox
+
+# fast build rule for target.
+4.5_cubemaps_skybox/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/build
+.PHONY : 4.5_cubemaps_skybox/fast
+
 src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o: src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
 .PHONY : src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o
 
@@ -597,6 +649,102 @@ src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.cpp.s
 .PHONY : src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.cpp.s
 
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.o: src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.o
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.o
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.o
+
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.i: src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.i
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.i
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.i
+
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.s: src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.s
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.s
+.PHONY : src/4_advancedOpenGL/4.2_blending_discard/blending_discard.cpp.s
+
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.o: src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.o
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.o
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.o
+
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.i: src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.i
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.i
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.i
+
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.s: src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.s
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.s
+.PHONY : src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.cpp.s
+
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.o: src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.o
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.o
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.o
+
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.i: src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.i
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.i
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.i
+
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.s: src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.s
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.s
+.PHONY : src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.cpp.s
+
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.o: src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.o
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.o
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.o
+
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.i: src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.i
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.i
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.i
+
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.s: src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s
+.PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -615,6 +763,10 @@ src/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -635,6 +787,10 @@ src/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -655,6 +811,10 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -675,6 +835,10 @@ src/stb_image.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -695,6 +859,10 @@ src/stb_image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -715,6 +883,10 @@ src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -738,6 +910,10 @@ help:
 	@echo "... 2.6_multiLights"
 	@echo "... 3.1_modelLoading"
 	@echo "... 4.1_stencil_testing"
+	@echo "... 4.2_blending_discard"
+	@echo "... 4.3_blenging_sorted"
+	@echo "... 4.4_frame_buffers"
+	@echo "... 4.5_cubemaps_skybox"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.i"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.s"
@@ -777,6 +953,18 @@ help:
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.o"
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.i"
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.s"
+	@echo "... src/4_advancedOpenGL/4.2_blending_discard/blending_discard.o"
+	@echo "... src/4_advancedOpenGL/4.2_blending_discard/blending_discard.i"
+	@echo "... src/4_advancedOpenGL/4.2_blending_discard/blending_discard.s"
+	@echo "... src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.o"
+	@echo "... src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.i"
+	@echo "... src/4_advancedOpenGL/4.3_blenging_sorted/blending_sorted.s"
+	@echo "... src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.o"
+	@echo "... src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.i"
+	@echo "... src/4_advancedOpenGL/4.4_frame_buffers/framebuffers.s"
+	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.o"
+	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.i"
+	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
