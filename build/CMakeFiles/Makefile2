@@ -81,6 +81,7 @@ all: CMakeFiles/4.3_blenging_sorted.dir/all
 all: CMakeFiles/4.4_frame_buffers.dir/all
 all: CMakeFiles/4.5_cubemaps_skybox.dir/all
 all: CMakeFiles/4.6_advanced_glsl_ubo.dir/all
+all: CMakeFiles/4.7_geometry_shader_houses.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -106,6 +107,7 @@ clean: CMakeFiles/4.3_blenging_sorted.dir/clean
 clean: CMakeFiles/4.4_frame_buffers.dir/clean
 clean: CMakeFiles/4.5_cubemaps_skybox.dir/clean
 clean: CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
+clean: CMakeFiles/4.7_geometry_shader_houses.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -575,6 +577,32 @@ CMakeFiles/4.6_advanced_glsl_ubo.dir/rule: cmake_check_build_system
 CMakeFiles/4.6_advanced_glsl_ubo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
 .PHONY : CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.7_geometry_shader_houses.dir
+
+# All Build rule for target.
+CMakeFiles/4.7_geometry_shader_houses.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=73,74,75,76 "Built target 4.7_geometry_shader_houses"
+.PHONY : CMakeFiles/4.7_geometry_shader_houses.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.7_geometry_shader_houses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.7_geometry_shader_houses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.7_geometry_shader_houses.dir/rule
+
+# Convenience name for target.
+4.7_geometry_shader_houses: CMakeFiles/4.7_geometry_shader_houses.dir/rule
+.PHONY : 4.7_geometry_shader_houses
+
+# clean rule for target.
+CMakeFiles/4.7_geometry_shader_houses.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/clean
+.PHONY : CMakeFiles/4.7_geometry_shader_houses.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

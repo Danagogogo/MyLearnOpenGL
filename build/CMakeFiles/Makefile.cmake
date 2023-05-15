@@ -66,4 +66,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/4.4_frame_buffers.dir/DependInfo.cmake"
   "CMakeFiles/4.5_cubemaps_skybox.dir/DependInfo.cmake"
   "CMakeFiles/4.6_advanced_glsl_ubo.dir/DependInfo.cmake"
+  "CMakeFiles/4.7_geometry_shader_houses.dir/DependInfo.cmake"
   )

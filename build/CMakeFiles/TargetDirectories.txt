@@ -16,5 +16,6 @@
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.4_frame_buffers.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.5_cubemaps_skybox.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.6_advanced_glsl_ubo.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.7_geometry_shader_houses.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/edit_cache.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/rebuild_cache.dir

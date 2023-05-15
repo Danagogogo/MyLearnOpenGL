@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/4.7_geometry_shader_houses.dir/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader_houses.cpp.o CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.o CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.o -o ../bin/4_advancedOpenGL/4.7_geometry_shader_houses/4.7_geometry_shader_houses  -lglfw -lassimp 
