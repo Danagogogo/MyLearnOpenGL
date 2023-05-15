@@ -49,6 +49,7 @@ set(4_advancedOpenGL
         4.3_blenging_sorted
         4.4_frame_buffers
         4.5_cubemaps_skybox
+        4.6_advanced_glsl_ubo
 )
 
 # 1.指定源文件或库对应的头文件目录

@@ -80,6 +80,7 @@ all: CMakeFiles/4.2_blending_discard.dir/all
 all: CMakeFiles/4.3_blenging_sorted.dir/all
 all: CMakeFiles/4.4_frame_buffers.dir/all
 all: CMakeFiles/4.5_cubemaps_skybox.dir/all
+all: CMakeFiles/4.6_advanced_glsl_ubo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,6 +105,7 @@ clean: CMakeFiles/4.2_blending_discard.dir/clean
 clean: CMakeFiles/4.3_blenging_sorted.dir/clean
 clean: CMakeFiles/4.4_frame_buffers.dir/clean
 clean: CMakeFiles/4.5_cubemaps_skybox.dir/clean
+clean: CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -547,6 +549,32 @@ CMakeFiles/4.5_cubemaps_skybox.dir/rule: cmake_check_build_system
 CMakeFiles/4.5_cubemaps_skybox.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/clean
 .PHONY : CMakeFiles/4.5_cubemaps_skybox.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/4.6_advanced_glsl_ubo.dir
+
+# All Build rule for target.
+CMakeFiles/4.6_advanced_glsl_ubo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=69,70,71,72 "Built target 4.6_advanced_glsl_ubo"
+.PHONY : CMakeFiles/4.6_advanced_glsl_ubo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/4.6_advanced_glsl_ubo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/4.6_advanced_glsl_ubo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/4.6_advanced_glsl_ubo.dir/rule
+
+# Convenience name for target.
+4.6_advanced_glsl_ubo: CMakeFiles/4.6_advanced_glsl_ubo.dir/rule
+.PHONY : 4.6_advanced_glsl_ubo
+
+# clean rule for target.
+CMakeFiles/4.6_advanced_glsl_ubo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
+.PHONY : CMakeFiles/4.6_advanced_glsl_ubo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

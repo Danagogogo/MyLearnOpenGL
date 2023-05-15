@@ -337,6 +337,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/build
 .PHONY : 4.5_cubemaps_skybox/fast
 
+#=============================================================================
+# Target rules for targets named 4.6_advanced_glsl_ubo
+
+# Build rule for target.
+4.6_advanced_glsl_ubo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.6_advanced_glsl_ubo
+.PHONY : 4.6_advanced_glsl_ubo
+
+# fast build rule for target.
+4.6_advanced_glsl_ubo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/build
+.PHONY : 4.6_advanced_glsl_ubo/fast
+
 src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o: src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
 .PHONY : src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o
 
@@ -745,6 +758,30 @@ src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s
 .PHONY : src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.cpp.s
 
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.o: src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.o
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.o
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.o
+
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.i: src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.i
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.i
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.i
+
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.s: src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.s
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.s
+.PHONY : src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -767,6 +804,7 @@ src/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -791,6 +829,7 @@ src/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -815,6 +854,7 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -839,6 +879,7 @@ src/stb_image.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -863,6 +904,7 @@ src/stb_image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -887,6 +929,7 @@ src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -914,6 +957,7 @@ help:
 	@echo "... 4.3_blenging_sorted"
 	@echo "... 4.4_frame_buffers"
 	@echo "... 4.5_cubemaps_skybox"
+	@echo "... 4.6_advanced_glsl_ubo"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.i"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.s"
@@ -965,6 +1009,9 @@ help:
 	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.o"
 	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.i"
 	@echo "... src/4_advancedOpenGL/4.5_cubemaps_skybox/cubemaps_skybox.s"
+	@echo "... src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.o"
+	@echo "... src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.i"
+	@echo "... src/4_advancedOpenGL/4.6_advanced_glsl_ubo/advanced_glsl_ubo.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
