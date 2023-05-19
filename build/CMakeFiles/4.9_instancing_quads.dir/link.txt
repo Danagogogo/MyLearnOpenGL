@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/4.9_instancing_quads.dir/src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.o CMakeFiles/4.9_instancing_quads.dir/src/glad.c.o CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.o -o ../bin/4_advancedOpenGL/4.9_instancing_quads/4.9_instancing_quads  -lglfw -lassimp 

@@ -376,6 +376,32 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/build
 .PHONY : 4.8_geometry_shader_normals/fast
 
+#=============================================================================
+# Target rules for targets named 4.9_instancing_quads
+
+# Build rule for target.
+4.9_instancing_quads: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.9_instancing_quads
+.PHONY : 4.9_instancing_quads
+
+# fast build rule for target.
+4.9_instancing_quads/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/build
+.PHONY : 4.9_instancing_quads/fast
+
+#=============================================================================
+# Target rules for targets named 4.10_asteroids_instanced
+
+# Build rule for target.
+4.10_asteroids_instanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4.10_asteroids_instanced
+.PHONY : 4.10_asteroids_instanced
+
+# fast build rule for target.
+4.10_asteroids_instanced/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/build
+.PHONY : 4.10_asteroids_instanced/fast
+
 src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o: src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
 .PHONY : src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o
 
@@ -664,6 +690,30 @@ src/3_modelLoading/3.1_modelLoading/model_loading.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/3_modelLoading/3.1_modelLoading/model_loading.cpp.s
 .PHONY : src/3_modelLoading/3.1_modelLoading/model_loading.cpp.s
 
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.o: src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o
+
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.i: src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.i
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.i
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.i
+
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.s: src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s
+.PHONY : src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s
+
 src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.o: src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.cpp.o
 .PHONY : src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.o
 
@@ -856,6 +906,30 @@ src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.cpp.s
 .PHONY : src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.cpp.s
 
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.o: src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.o
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.o
+
+# target to build an object file
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.o
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.o
+
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.i: src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.i
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.i
+
+# target to preprocess a source file
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.i
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.i
+
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.s: src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.s
+
+# target to generate assembly for a file
+src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s
+.PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -881,6 +955,8 @@ src/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -908,6 +984,8 @@ src/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -935,6 +1013,8 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -962,6 +1042,8 @@ src/stb_image.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -989,6 +1071,8 @@ src/stb_image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -1016,6 +1100,8 @@ src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -1038,6 +1124,7 @@ help:
 	@echo "... 2.5_Flashlight"
 	@echo "... 2.6_multiLights"
 	@echo "... 3.1_modelLoading"
+	@echo "... 4.10_asteroids_instanced"
 	@echo "... 4.1_stencil_testing"
 	@echo "... 4.2_blending_discard"
 	@echo "... 4.3_blenging_sorted"
@@ -1046,6 +1133,7 @@ help:
 	@echo "... 4.6_advanced_glsl_ubo"
 	@echo "... 4.7_geometry_shader_houses"
 	@echo "... 4.8_geometry_shader_normals"
+	@echo "... 4.9_instancing_quads"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.i"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.s"
@@ -1082,6 +1170,9 @@ help:
 	@echo "... src/3_modelLoading/3.1_modelLoading/model_loading.o"
 	@echo "... src/3_modelLoading/3.1_modelLoading/model_loading.i"
 	@echo "... src/3_modelLoading/3.1_modelLoading/model_loading.s"
+	@echo "... src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.o"
+	@echo "... src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.i"
+	@echo "... src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.s"
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.o"
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.i"
 	@echo "... src/4_advancedOpenGL/4.1_stencil_testing/stencil_testing.s"
@@ -1106,6 +1197,9 @@ help:
 	@echo "... src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.o"
 	@echo "... src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.i"
 	@echo "... src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.s"
+	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.o"
+	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.i"
+	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

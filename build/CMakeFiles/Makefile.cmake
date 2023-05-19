@@ -68,4 +68,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/4.6_advanced_glsl_ubo.dir/DependInfo.cmake"
   "CMakeFiles/4.7_geometry_shader_houses.dir/DependInfo.cmake"
   "CMakeFiles/4.8_geometry_shader_normals.dir/DependInfo.cmake"
+  "CMakeFiles/4.9_instancing_quads.dir/DependInfo.cmake"
+  "CMakeFiles/4.10_asteroids_instanced.dir/DependInfo.cmake"
   )
