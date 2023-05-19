@@ -20,5 +20,6 @@
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.8_geometry_shader_normals.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.9_instancing_quads.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.10_asteroids_instanced.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/5.1_advanced_lighting.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/edit_cache.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/5.1_advanced_lighting.dir/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.o CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.o CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.o -o ../bin/5_advanced_lighting/5.1_advanced_lighting/5.1_advanced_lighting  -lglfw -lassimp 

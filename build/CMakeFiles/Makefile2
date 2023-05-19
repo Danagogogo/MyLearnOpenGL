@@ -85,6 +85,7 @@ all: CMakeFiles/4.7_geometry_shader_houses.dir/all
 all: CMakeFiles/4.8_geometry_shader_normals.dir/all
 all: CMakeFiles/4.9_instancing_quads.dir/all
 all: CMakeFiles/4.10_asteroids_instanced.dir/all
+all: CMakeFiles/5.1_advanced_lighting.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -114,6 +115,7 @@ clean: CMakeFiles/4.7_geometry_shader_houses.dir/clean
 clean: CMakeFiles/4.8_geometry_shader_normals.dir/clean
 clean: CMakeFiles/4.9_instancing_quads.dir/clean
 clean: CMakeFiles/4.10_asteroids_instanced.dir/clean
+clean: CMakeFiles/5.1_advanced_lighting.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -687,6 +689,32 @@ CMakeFiles/4.10_asteroids_instanced.dir/rule: cmake_check_build_system
 CMakeFiles/4.10_asteroids_instanced.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/clean
 .PHONY : CMakeFiles/4.10_asteroids_instanced.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5.1_advanced_lighting.dir
+
+# All Build rule for target.
+CMakeFiles/5.1_advanced_lighting.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=89,90,91,92 "Built target 5.1_advanced_lighting"
+.PHONY : CMakeFiles/5.1_advanced_lighting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5.1_advanced_lighting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/5.1_advanced_lighting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles 0
+.PHONY : CMakeFiles/5.1_advanced_lighting.dir/rule
+
+# Convenience name for target.
+5.1_advanced_lighting: CMakeFiles/5.1_advanced_lighting.dir/rule
+.PHONY : 5.1_advanced_lighting
+
+# clean rule for target.
+CMakeFiles/5.1_advanced_lighting.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/clean
+.PHONY : CMakeFiles/5.1_advanced_lighting.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

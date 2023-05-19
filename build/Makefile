@@ -402,6 +402,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/build
 .PHONY : 4.10_asteroids_instanced/fast
 
+#=============================================================================
+# Target rules for targets named 5.1_advanced_lighting
+
+# Build rule for target.
+5.1_advanced_lighting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5.1_advanced_lighting
+.PHONY : 5.1_advanced_lighting
+
+# fast build rule for target.
+5.1_advanced_lighting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/build
+.PHONY : 5.1_advanced_lighting/fast
+
 src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o: src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
 .PHONY : src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o
 
@@ -930,6 +943,30 @@ src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s
 .PHONY : src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.cpp.s
 
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.o: src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.o
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.o
+
+# target to build an object file
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.o
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.o
+
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.i: src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.i
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.i
+
+# target to preprocess a source file
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.i
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.i
+
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.s: src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.s
+
+# target to generate assembly for a file
+src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s
+.PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
@@ -957,6 +994,7 @@ src/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -986,6 +1024,7 @@ src/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -1015,6 +1054,7 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -1044,6 +1084,7 @@ src/stb_image.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -1073,6 +1114,7 @@ src/stb_image.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -1102,6 +1144,7 @@ src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -1134,6 +1177,7 @@ help:
 	@echo "... 4.7_geometry_shader_houses"
 	@echo "... 4.8_geometry_shader_normals"
 	@echo "... 4.9_instancing_quads"
+	@echo "... 5.1_advanced_lighting"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.i"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.s"
@@ -1200,6 +1244,9 @@ help:
 	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.o"
 	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.i"
 	@echo "... src/4_advancedOpenGL/4.9_instancing_quads/instancing_quads.s"
+	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.o"
+	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.i"
+	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

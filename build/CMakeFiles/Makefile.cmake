@@ -70,4 +70,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/4.8_geometry_shader_normals.dir/DependInfo.cmake"
   "CMakeFiles/4.9_instancing_quads.dir/DependInfo.cmake"
   "CMakeFiles/4.10_asteroids_instanced.dir/DependInfo.cmake"
+  "CMakeFiles/5.1_advanced_lighting.dir/DependInfo.cmake"
   )
