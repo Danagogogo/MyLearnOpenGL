@@ -1,7 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 
 #include <iostream>
@@ -50,7 +49,8 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("10.1.instancing.vs", "10.1.instancing.fs");
+    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.9_instancing_quads/instancing.vs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.9_instancing_quads/instancing.fs");
 
     // generate a list of 100 quad locations/translation-vectors
     // ---------------------------------------------------------
@@ -94,14 +94,14 @@ int main()
     glBindVertexArray(quadVAO);
     glBindBuffer(GL_ARRAY_BUFFER, quadVBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(quadVertices), quadVertices, GL_STATIC_DRAW);
-    glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(1);
+    glEnableVertexAttribArray(0);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(2 * sizeof(float)));
+    glEnableVertexAttribArray(1);
     // also set instance data
-    glEnableVertexAttribArray(2);
     glBindBuffer(GL_ARRAY_BUFFER, instanceVBO); // this attribute comes from a different vertex buffer
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(2);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glVertexAttribDivisor(2, 1); // tell OpenGL this is an instanced vertex attribute.
 

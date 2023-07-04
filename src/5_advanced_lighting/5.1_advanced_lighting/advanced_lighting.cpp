@@ -6,7 +6,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
@@ -81,7 +80,8 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("1.advanced_lighting.vs", "1.advanced_lighting.fs");
+    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.vs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -112,7 +112,7 @@ int main()
 
     // load textures
     // -------------
-    unsigned int floorTexture = loadTexture(FileSystem::getPath("resources/textures/wood.png").c_str());
+    unsigned int floorTexture = loadTexture("/home/dana/Desktop/MyLearnOpenGL/resources/textures/wood.png");
     
     // shader configuration
     // --------------------
@@ -194,6 +194,7 @@ void processInput(GLFWwindow *window)
     if (glfwGetKey(window, GLFW_KEY_B) == GLFW_PRESS && !blinnKeyPressed) 
     {
         blinn = !blinn;
+        std::cout << "current pattern: " << (blinn ? "Blinn-Phong" : "Phong") << std::endl;
         blinnKeyPressed = true;
     }
     if (glfwGetKey(window, GLFW_KEY_B) == GLFW_RELEASE) 

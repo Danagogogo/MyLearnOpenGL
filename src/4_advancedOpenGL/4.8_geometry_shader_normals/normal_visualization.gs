@@ -4,7 +4,7 @@ layout (line_strip, max_vertices = 6) out;
 
 in VS_OUT {
     vec3 normal;
-} gs_in[];
+} gs_in[];                      // 数组的形式，不止一个顶点
 
 const float MAGNITUDE = 0.2;
 
@@ -21,7 +21,7 @@ void GenerateLine(int index)
 
 void main()
 {
-    GenerateLine(0); // first vertex normal
-    GenerateLine(1); // second vertex normal
-    GenerateLine(2); // third vertex normal
+    GenerateLine(0);                // first vertex normal
+    GenerateLine(1);                // second vertex normal
+    GenerateLine(2);                // third vertex normal
 }

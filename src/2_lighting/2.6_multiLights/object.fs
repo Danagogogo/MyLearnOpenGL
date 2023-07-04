@@ -77,6 +77,7 @@ void main()
     result += CalcSpotLight(spotLight, norm, FragPos, viewDir);
 
     FragColor = vec4(result, 1.0);
+    // FragColor = texture(material.specular, TexCoords);
 }
 
 // 定向光计算

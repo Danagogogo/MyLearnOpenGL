@@ -22,17 +22,26 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
+  "/usr/share/cmake-3.22/Modules/CheckFunctionExists.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.22/Modules/FindFontconfig.cmake"
+  "/usr/share/cmake-3.22/Modules/FindFreetype.cmake"
+  "/usr/share/cmake-3.22/Modules/FindOpenGL.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+  "/usr/share/cmake-3.22/Modules/FindX11.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake"
   )
 
 # The corresponding makefile is:
@@ -48,6 +57,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
+  "CMakeFiles/GLAD.dir/DependInfo.cmake"
   "CMakeFiles/1.1_triangle_indexed.dir/DependInfo.cmake"
   "CMakeFiles/1.2_shaders_uniform.dir/DependInfo.cmake"
   "CMakeFiles/1.3_shader_class.dir/DependInfo.cmake"
@@ -71,4 +82,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/4.9_instancing_quads.dir/DependInfo.cmake"
   "CMakeFiles/4.10_asteroids_instanced.dir/DependInfo.cmake"
   "CMakeFiles/5.1_advanced_lighting.dir/DependInfo.cmake"
+  "CMakeFiles/7.1_text_rendering.dir/DependInfo.cmake"
   )

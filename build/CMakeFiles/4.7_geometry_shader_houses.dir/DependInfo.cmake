@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dana/Desktop/MyLearnOpenGL/src/glad.c" "CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.o" "gcc" "CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.o.d"
   "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader_houses.cpp" "CMakeFiles/4.7_geometry_shader_houses.dir/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader_houses.cpp.o" "gcc" "CMakeFiles/4.7_geometry_shader_houses.dir/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader_houses.cpp.o.d"
-  "/home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp" "CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.o" "gcc" "CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
+  "/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/GLAD.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

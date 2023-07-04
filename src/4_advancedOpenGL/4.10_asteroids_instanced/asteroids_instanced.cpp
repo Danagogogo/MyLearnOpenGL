@@ -6,7 +6,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
@@ -76,13 +75,15 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader asteroidShader("10.3.asteroids.vs", "10.3.asteroids.fs");
-    Shader planetShader("10.3.planet.vs", "10.3.planet.fs");
+    Shader asteroidShader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids.vs",
+                          "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids.fs");
+    Shader planetShader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.10_asteroids_instanced/planet.vs",
+                        "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.10_asteroids_instanced/planet.fs");
 
     // load models
     // -----------
-    Model rock(FileSystem::getPath("resources/objects/rock/rock.obj"));
-    Model planet(FileSystem::getPath("resources/objects/planet/planet.obj"));
+    Model rock("/home/dana/Desktop/MyLearnOpenGL/resources/objects/rock/rock.obj");
+    Model planet("/home/dana/Desktop/MyLearnOpenGL/resources/objects/planet/planet.obj");
 
     // generate a large list of semi-random model transformation matrices
     // ------------------------------------------------------------------

@@ -6,7 +6,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
@@ -76,13 +75,16 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("9.3.default.vs", "9.3.default.fs");
-    Shader normalShader("9.3.normal_visualization.vs", "9.3.normal_visualization.fs", "9.3.normal_visualization.gs");
+    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.8_geometry_shader_normals/default.vs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.8_geometry_shader_normals/default.fs");
+    Shader normalShader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.vs",
+                        "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.fs",
+                        "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.8_geometry_shader_normals/normal_visualization.gs");
 
     // load models
     // -----------
     stbi_set_flip_vertically_on_load(true);
-    Model backpack(FileSystem::getPath("resources/objects/backpack/backpack.obj"));
+    Model backpack("/home/dana/Desktop/MyLearnOpenGL/resources/objects/backpack/backpack.obj");
 
     // render loop
     // -----------

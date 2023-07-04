@@ -1,3 +1,5 @@
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/STB_IMAGE.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/GLAD.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.1_triangle_indexed.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.2_shaders_uniform.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/1.3_shader_class.dir
@@ -21,5 +23,6 @@
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.9_instancing_quads.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/4.10_asteroids_instanced.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/5.1_advanced_lighting.dir
+/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/7.1_text_rendering.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/edit_cache.dir
 /home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles/rebuild_cache.dir

@@ -83,49 +83,22 @@ CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/t
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp -o CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.s
 
-CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o: CMakeFiles/1.1_triangle_indexed.dir/flags.make
-CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o: ../src/glad.c
-CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o: CMakeFiles/1.1_triangle_indexed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o -MF CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o.d -o CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o -c /home/dana/Desktop/MyLearnOpenGL/src/glad.c
-
-CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dana/Desktop/MyLearnOpenGL/src/glad.c > CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.i
-
-CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/glad.c -o CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.s
-
-CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o: CMakeFiles/1.1_triangle_indexed.dir/flags.make
-CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o: ../src/stb_image.cpp
-CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o: CMakeFiles/1.1_triangle_indexed.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o -MF CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o.d -o CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o -c /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp
-
-CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp > CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.i
-
-CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp -o CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.s
-
 # Object files for target 1.1_triangle_indexed
 1_1_triangle_indexed_OBJECTS = \
-"CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o" \
-"CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o" \
-"CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o"
+"CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o"
 
 # External object files for target 1.1_triangle_indexed
 1_1_triangle_indexed_EXTERNAL_OBJECTS =
 
 ../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: CMakeFiles/1.1_triangle_indexed.dir/src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
-../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o
-../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o
 ../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: CMakeFiles/1.1_triangle_indexed.dir/build.make
+../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: /usr/local/lib/libglfw3.a
+../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: /usr/lib/x86_64-linux-gnu/libassimp.so
+../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: libSTB_IMAGE.a
+../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: libGLAD.a
+../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: /usr/lib/x86_64-linux-gnu/libassimp.so
 ../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed: CMakeFiles/1.1_triangle_indexed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/1_getting_started/1.1_triangle_indexed/1.1_triangle_indexed"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/1.1_triangle_indexed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

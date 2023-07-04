@@ -117,6 +117,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named STB_IMAGE
+
+# Build rule for target.
+STB_IMAGE: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 STB_IMAGE
+.PHONY : STB_IMAGE
+
+# fast build rule for target.
+STB_IMAGE/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
+.PHONY : STB_IMAGE/fast
+
+#=============================================================================
+# Target rules for targets named GLAD
+
+# Build rule for target.
+GLAD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GLAD
+.PHONY : GLAD
+
+# fast build rule for target.
+GLAD/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
+.PHONY : GLAD/fast
+
+#=============================================================================
 # Target rules for targets named 1.1_triangle_indexed
 
 # Build rule for target.
@@ -414,6 +440,19 @@ depend:
 5.1_advanced_lighting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/build
 .PHONY : 5.1_advanced_lighting/fast
+
+#=============================================================================
+# Target rules for targets named 7.1_text_rendering
+
+# Build rule for target.
+7.1_text_rendering: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7.1_text_rendering
+.PHONY : 7.1_text_rendering
+
+# fast build rule for target.
+7.1_text_rendering/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.1_text_rendering.dir/build.make CMakeFiles/7.1_text_rendering.dir/build
+.PHONY : 7.1_text_rendering/fast
 
 src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o: src/1_getting_started/1.1_triangle_indexed/triangle_indexed.cpp.o
 .PHONY : src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o
@@ -967,34 +1006,36 @@ src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s
 .PHONY : src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.cpp.s
 
+src/7_in_practice/7.1_text_rendering/text_rendering.o: src/7_in_practice/7.1_text_rendering/text_rendering.cpp.o
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.o
+
+# target to build an object file
+src/7_in_practice/7.1_text_rendering/text_rendering.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.1_text_rendering.dir/build.make CMakeFiles/7.1_text_rendering.dir/src/7_in_practice/7.1_text_rendering/text_rendering.cpp.o
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.cpp.o
+
+src/7_in_practice/7.1_text_rendering/text_rendering.i: src/7_in_practice/7.1_text_rendering/text_rendering.cpp.i
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.i
+
+# target to preprocess a source file
+src/7_in_practice/7.1_text_rendering/text_rendering.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.1_text_rendering.dir/build.make CMakeFiles/7.1_text_rendering.dir/src/7_in_practice/7.1_text_rendering/text_rendering.cpp.i
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.cpp.i
+
+src/7_in_practice/7.1_text_rendering/text_rendering.s: src/7_in_practice/7.1_text_rendering/text_rendering.cpp.s
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.s
+
+# target to generate assembly for a file
+src/7_in_practice/7.1_text_rendering/text_rendering.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7.1_text_rendering.dir/build.make CMakeFiles/7.1_text_rendering.dir/src/7_in_practice/7.1_text_rendering/text_rendering.cpp.s
+.PHONY : src/7_in_practice/7.1_text_rendering/text_rendering.cpp.s
+
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -1002,29 +1043,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -1032,29 +1051,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/stb_image.o: src/stb_image.cpp.o
@@ -1062,29 +1059,7 @@ src/stb_image.o: src/stb_image.cpp.o
 
 # target to build an object file
 src/stb_image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o
 .PHONY : src/stb_image.cpp.o
 
 src/stb_image.i: src/stb_image.cpp.i
@@ -1092,29 +1067,7 @@ src/stb_image.i: src/stb_image.cpp.i
 
 # target to preprocess a source file
 src/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.i
 .PHONY : src/stb_image.cpp.i
 
 src/stb_image.s: src/stb_image.cpp.s
@@ -1122,29 +1075,7 @@ src/stb_image.s: src/stb_image.cpp.s
 
 # target to generate assembly for a file
 src/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.1_triangle_indexed.dir/build.make CMakeFiles/1.1_triangle_indexed.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.2_shaders_uniform.dir/build.make CMakeFiles/1.2_shaders_uniform.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.3_shader_class.dir/build.make CMakeFiles/1.3_shader_class.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.4_texture2D.dir/build.make CMakeFiles/1.4_texture2D.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.5_tenRotatingCube.dir/build.make CMakeFiles/1.5_tenRotatingCube.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.1_colors.dir/build.make CMakeFiles/2.1_colors.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.2_PhongShading.dir/build.make CMakeFiles/2.2_PhongShading.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.3_materials.dir/build.make CMakeFiles/2.3_materials.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.4_ligthtingMaps.dir/build.make CMakeFiles/2.4_ligthtingMaps.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.5_Flashlight.dir/build.make CMakeFiles/2.5_Flashlight.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.6_multiLights.dir/build.make CMakeFiles/2.6_multiLights.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.1_modelLoading.dir/build.make CMakeFiles/3.1_modelLoading.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.1_stencil_testing.dir/build.make CMakeFiles/4.1_stencil_testing.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.2_blending_discard.dir/build.make CMakeFiles/4.2_blending_discard.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.3_blenging_sorted.dir/build.make CMakeFiles/4.3_blenging_sorted.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.4_frame_buffers.dir/build.make CMakeFiles/4.4_frame_buffers.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.5_cubemaps_skybox.dir/build.make CMakeFiles/4.5_cubemaps_skybox.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.6_advanced_glsl_ubo.dir/build.make CMakeFiles/4.6_advanced_glsl_ubo.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.7_geometry_shader_houses.dir/build.make CMakeFiles/4.7_geometry_shader_houses.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.8_geometry_shader_normals.dir/build.make CMakeFiles/4.8_geometry_shader_normals.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.9_instancing_quads.dir/build.make CMakeFiles/4.9_instancing_quads.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4.10_asteroids_instanced.dir/build.make CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/5.1_advanced_lighting.dir/build.make CMakeFiles/5.1_advanced_lighting.dir/src/stb_image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
 # Help Target
@@ -1178,6 +1109,9 @@ help:
 	@echo "... 4.8_geometry_shader_normals"
 	@echo "... 4.9_instancing_quads"
 	@echo "... 5.1_advanced_lighting"
+	@echo "... 7.1_text_rendering"
+	@echo "... GLAD"
+	@echo "... STB_IMAGE"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.o"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.i"
 	@echo "... src/1_getting_started/1.1_triangle_indexed/triangle_indexed.s"
@@ -1247,6 +1181,9 @@ help:
 	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.o"
 	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.i"
 	@echo "... src/5_advanced_lighting/5.1_advanced_lighting/advanced_lighting.s"
+	@echo "... src/7_in_practice/7.1_text_rendering/text_rendering.o"
+	@echo "... src/7_in_practice/7.1_text_rendering/text_rendering.i"
+	@echo "... src/7_in_practice/7.1_text_rendering/text_rendering.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

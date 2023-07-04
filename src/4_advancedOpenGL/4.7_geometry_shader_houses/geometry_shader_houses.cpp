@@ -1,7 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 
 #include <iostream>
@@ -50,7 +49,9 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("9.1.geometry_shader.vs", "9.1.geometry_shader.fs", "9.1.geometry_shader.gs");
+    Shader shader("/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader.vs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader.fs",
+                  "/home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.7_geometry_shader_houses/geometry_shader.gs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -66,10 +67,10 @@ int main()
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(points), &points, GL_STATIC_DRAW);
-    glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), 0);
-    glEnableVertexAttribArray(1);
+    glEnableVertexAttribArray(0);
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(2 * sizeof(float)));
+    glEnableVertexAttribArray(1);
     glBindVertexArray(0);
 
     // render loop

@@ -83,49 +83,22 @@ CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_inst
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp -o CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.s
 
-CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o: CMakeFiles/4.10_asteroids_instanced.dir/flags.make
-CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o: ../src/glad.c
-CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o: CMakeFiles/4.10_asteroids_instanced.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o -MF CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o.d -o CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o -c /home/dana/Desktop/MyLearnOpenGL/src/glad.c
-
-CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dana/Desktop/MyLearnOpenGL/src/glad.c > CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.i
-
-CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/glad.c -o CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.s
-
-CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o: CMakeFiles/4.10_asteroids_instanced.dir/flags.make
-CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o: ../src/stb_image.cpp
-CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o: CMakeFiles/4.10_asteroids_instanced.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o -MF CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o.d -o CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o -c /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp
-
-CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp > CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.i
-
-CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dana/Desktop/MyLearnOpenGL/src/stb_image.cpp -o CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.s
-
 # Object files for target 4.10_asteroids_instanced
 4_10_asteroids_instanced_OBJECTS = \
-"CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o" \
-"CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o" \
-"CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o"
+"CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o"
 
 # External object files for target 4.10_asteroids_instanced
 4_10_asteroids_instanced_EXTERNAL_OBJECTS =
 
 ../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: CMakeFiles/4.10_asteroids_instanced.dir/src/4_advancedOpenGL/4.10_asteroids_instanced/asteroids_instanced.cpp.o
-../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: CMakeFiles/4.10_asteroids_instanced.dir/src/glad.c.o
-../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: CMakeFiles/4.10_asteroids_instanced.dir/src/stb_image.cpp.o
 ../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: CMakeFiles/4.10_asteroids_instanced.dir/build.make
+../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: /usr/local/lib/libglfw3.a
+../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: /usr/lib/x86_64-linux-gnu/libassimp.so
+../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: libSTB_IMAGE.a
+../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: libGLAD.a
+../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: /usr/lib/x86_64-linux-gnu/libassimp.so
 ../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced: CMakeFiles/4.10_asteroids_instanced.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dana/Desktop/MyLearnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/4_advancedOpenGL/4.10_asteroids_instanced/4.10_asteroids_instanced"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/4.10_asteroids_instanced.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
